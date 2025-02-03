@@ -28,7 +28,7 @@ const FormItem: React.FC<Props> = ({
 
   return (
     <div className='sticky top-0 bg-white z-[10]'>
-      <h1 className='text-3xl font-extrabold max-w-3xl mx-auto p-6 pb-3'>Add New Item</h1>
+      <h1 className='text-3xl font-extrabold max-w-3xl mx-auto p-6 pb-3 pt-3'>Add New Item</h1>
       <form
         onSubmit={
           handleSubmit((data) => {
